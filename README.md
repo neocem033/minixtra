@@ -30,9 +30,9 @@ Thanks! :heart:
 
 
 ```sh
-git clone https://github.com/SlaSerX/stalker
+git clone https://github.com/xheen908/ministra
 
-cd stalker/
+cd ministra/
 
 chmod +x install
 
