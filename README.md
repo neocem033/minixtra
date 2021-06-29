@@ -30,7 +30,7 @@ Thanks! :heart:
 
 
 ```sh
-git clone https://github.com/xheen908/ministra
+git clone https://github.com/neocem033/minixtra
 
 cd ministra/
 
