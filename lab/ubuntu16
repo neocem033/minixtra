@@ -199,13 +199,6 @@ echo 'sql_mode=""' >> /etc/mysql/mysql.conf.d/mysqld.cnf
 # PHP Settings
 echo "short_open_tag = On" >> /etc/php/7.0/apache2/php.ini
 
-# Ministra Vendor bug Fix 
-sleep 1
-rm -rf /var/www/html/stalker_portal/admin/vendor
-cd /var/www/html/stalker_portal/admin
-wget http://lab.itbox.bg/software/tv/vendor.tar
-tar -xvf vendor.tar
-sleep 1
 
 # Phing :)
 cd /var/www/html/stalker_portal/deploy
